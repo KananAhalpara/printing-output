@@ -48,7 +48,7 @@ alert(output);
 
 
 
-/*
+
 //-------------------------------------------------------- TASK - 3 --------------------------------------------------------//
 
 //---------- Declare variables ---------------------------//
@@ -67,13 +67,10 @@ last_element = numbers[numbers.length - 1];
 
 sum = first_element + last_element;
 
-function oddEven(sum) {
-    if (sum % 2 == 0) {
-        window.alert(first_element + " + " + last_element + " = " +  sum + \n +
-             "This Number is Even");}
-    else{
-        window.alert(first_element + " + " + last_element + " = " +  sum + \n +
-             "This Number is Odd");}
+if (sum % 2 === 0) {
+    window.alert(first_element + " + " + last_element + " = " + sum + "\n " +
+                 "This Number is Even");
+} else {
+    window.alert(first_element + " + " + last_element + " = " + sum + "\n" +
+                 "This Number is Odd");
 }
-
-*/
